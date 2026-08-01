@@ -1,0 +1,55 @@
+# ==========================================
+# Android & Gradle
+# ==========================================
+.gradle/
+**/build/
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.keystore
+*.jks
+
+# ==========================================
+# Python & FastAPI Backend
+# ==========================================
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+backend/.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.env.local
+backend/.env
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+.idea/
+.vscode/
+*.iml
+.project
+.settings/
+.classpath
+
+# ==========================================
+# OS & System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Workspace & Local Artifacts
+# ==========================================
+outputs/
+.gemini/

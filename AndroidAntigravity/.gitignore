@@ -1,7 +1,19 @@
+# Android & Gradle
 .gradle/
-.idea/
-local.properties
 **/build/
+local.properties
+*.apk
+*.aab
+
+# Python & Environment
+**/__pycache__/
+*.py[cod]
 backend/.venv/
 backend/.env
+.pytest_cache/
 
+# IDE & OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
