@@ -1,0 +1,3 @@
+# The Android OAuth client uses the same package name as this app.
+# Use the *Web application* OAuth client ID here and in backend/.env.
+GOOGLE_WEB_CLIENT_ID=1234567890-abcdefghijklmnopqrstuvwxyz.apps.googleusercontent.com
